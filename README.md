@@ -1,11 +1,11 @@
-# datasim_jd305
+# structured_output_constrained_decoding_dedup
 
 **在数据合成与仿真工程师·结构化输出的约束解码里找出重复内容并给出归并建议。**
 
-`datasim_jd305` —— 对内容做归一化与分片比对，找出数据合成与仿真工程师·结构化输出的约束解码上的重复项并按相似度归并
+`structured_output_constrained_decoding_dedup` —— 对内容做归一化与分片比对，找出数据合成与仿真工程师·结构化输出的约束解码上的重复项并按相似度归并
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`datasim_jd305.py` 拷走就能用
+- 单文件，`structured_output_constrained_decoding_dedup.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install skorupov-datasim_jd305
+pip install skorupov-structured_output_constrained_decoding_dedup
 ```
 
 装完直接用命令名调用：
 
 ```bash
-datasim_jd305 --help
+structured_output_constrained_decoding_dedup --help
 ```
 
-也可以不用安装，直接把 `datasim_jd305.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `structured_output_constrained_decoding_dedup.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ datasim_jd305 --help
 ## 用法
 
 ```bash
-python datasim_jd305.py --file input.txt
-python datasim_jd305.py --text "示例内容"
-python datasim_jd305.py --file input.txt --json
+python structured_output_constrained_decoding_dedup.py --file input.txt
+python structured_output_constrained_decoding_dedup.py --text "示例内容"
+python structured_output_constrained_decoding_dedup.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python datasim_jd305.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_datasim_jd305.py
+python test_structured_output_constrained_decoding_dedup.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_datasim_jd305.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/skorupov/datasim_jd305>
+- GitHub 仓库：<https://github.com/skorupov/structured_output_constrained_decoding_dedup>
 
 ---
 
@@ -79,7 +79,7 @@ python test_datasim_jd305.py
 skorupov 做数据合成与仿真工程师·结构化输出的约束解码相关的问题，方向对标小米的架构数据合成与仿真工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://skorupov.github.io>
-- 仓库：<https://github.com/skorupov/datasim_jd305>
+- 仓库：<https://github.com/skorupov/structured_output_constrained_decoding_dedup>
 
 ## 许可
 

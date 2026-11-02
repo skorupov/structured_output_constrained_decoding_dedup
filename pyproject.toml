@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "skorupov-datasim_jd305"
+name = "skorupov-structured_output_constrained_decoding_dedup"
 version = "0.1.0"
 description = "对内容做归一化与分片比对，找出数据合成与仿真工程师·结构化输出的约束解码上的重复项并按相似度归并"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://skorupov.github.io"
-Repository = "https://github.com/skorupov/datasim_jd305"
-Issues = "https://github.com/skorupov/datasim_jd305/issues"
+Repository = "https://github.com/skorupov/structured_output_constrained_decoding_dedup"
+Issues = "https://github.com/skorupov/structured_output_constrained_decoding_dedup/issues"
 
 [project.scripts]
-datasim_jd305 = "datasim_jd305:main"
+structured_output_constrained_decoding_dedup = "structured_output_constrained_decoding_dedup:main"
 
 [tool.setuptools]
-py-modules = ["datasim_jd305"]
+py-modules = ["structured_output_constrained_decoding_dedup"]
